@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
-import CaptchaReducer from "./Slice"
+import capslice from "/slice"
 
 
-export  const Store = configureStore({
-    reducer:{
-        name: CaptchaReducer
+
+ export default configureStore({
+    reducer: {
+        capreducer: capslice
     }
 
-})
+
+ })
