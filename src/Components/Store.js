@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import capslice from "/slice"
+import capslice from "./Slice"
 
 
 
- export default configureStore({
+  export const store= configureStore({
     reducer: {
         capreducer: capslice
     }
